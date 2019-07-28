@@ -14,14 +14,16 @@ APPLE_COLOR = (255, 0, 0)
 pygame.init()
 # Initialize screen.
 screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_WIDTH))
+# Name shown on the top of the canvas.
+pygame.display.set_caption('Snake Game')
 # Load grass background image.
-grassImage = pygame.image.load(r'C:\Users\Arbaaz\PycharmProjects\test\resources\grass.jpg')
+grassImage = pygame.image.load(r'resources\grass.jpg')
 grassImage = pygame.transform.scale(grassImage, (800, 800))
 # Load apple image.
-appleImage = pygame.image.load(r'C:\Users\Arbaaz\PycharmProjects\test\resources\apple.png')
+appleImage = pygame.image.load(r'resources\apple.png')
 appleImage = pygame.transform.scale(appleImage, (UNIT, UNIT))
 # Load snake image.
-snakeImage = pygame.image.load(r'C:\Users\Arbaaz\PycharmProjects\test\resources\snake_body.png')
+snakeImage = pygame.image.load(r'resources\snake_body.png')
 snakeImage = pygame.transform.scale(snakeImage, (UNIT, UNIT))
 # gameOver tracks the status of the game.
 gameOver = False
