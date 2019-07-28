@@ -13,4 +13,4 @@ To play it you need to do the following:
 2. Ensure that you have python3 and pygame installed.
 3. Run ``python snake.py``
 
-![picture](snake_game/game_screen.png)
+![picture](game_screen.png)
