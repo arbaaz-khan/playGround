@@ -13,4 +13,4 @@ To play it you need to do the following:
 2. Ensure that you have python3 and pygame installed.
 3. Run ``python snake.py``
 
-![alt text](https://github.com/arbaaz-khan/playGround/tree/master/snake_game/resources/grass.png)
+![picture](snake_game/game_screen.png)
